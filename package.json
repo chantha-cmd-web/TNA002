@@ -1,0 +1,15 @@
+{
+  "name": "tna-system",
+  "version": "3.0.0",
+  "description": "HRIS Training Needs Analysis System with Upstash Redis sync",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.34.0"
+  },
+  "devDependencies": {
+    "vercel": "^37.0.0"
+  }
+}
